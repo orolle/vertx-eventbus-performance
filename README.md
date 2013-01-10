@@ -14,4 +14,4 @@ Use following parameters:
 
 [vertx env 2] -cluster -cluster-host <your local ip of an interface> -cluster-port 25502
 
-under linux you could use "sudo tcptrack -i lo" which shows the tcp traffic on loopback network interface where verx instances will run
+under linux you could use "sudo tcptrack -i lo" which shows the tcp traffic on loopback network interface where vertx envs will communicate over.
